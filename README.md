@@ -45,13 +45,10 @@ void sumOfNodes(struct Node* head, int* sum)
   
 // utility function to find the sum of  nodes 
 int sumOfNodesUtil(struct Node* head) 
-{ 
-  
+{  
     int sum = 0; 
-  
     // find the sum of  nodes 
     sumOfNodes(head, &sum); 
-  
     // required sum 
     return sum; 
 } 
